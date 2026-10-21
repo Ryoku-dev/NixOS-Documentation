@@ -2,31 +2,29 @@
 
 # Installing from a USB drive
 
-The Ryoku on NixOS bootable ISO is a **pre-release testing route**, not the everyday recommendation for someone who has never installed Linux.
+The Ryoku on NixOS bootable ISO that automatically installs NixOS aswell as the entire Ryoku shell and comes preinstalled with premade NixOS configs and flake.nix inputs and they are heavily commented to make editing extremely easy.
 
-> **Disk-erasing warning:** The current Ryoku installer ISO erases the **selected disk** and does not offer manual partitioning. If you pick your Windows drive, you can lose Windows and everything stored on it.
+> **Disk-erasing warning:** The current Ryoku installer ISO erases the **selected disk** and does not offer manual partitioning unless you do it manually in a TTY session first or use Disk Manager on Windows. If you pick your Windows drive without partitioning first, you will lose Windows and everything stored on it.
 
-## Should you use the Ryoku ISO?
-
-Use it only if you understand disk selection, have a tested backup and are comfortable testing a pre-release installer. For a beginner who wants to preserve an existing Windows setup, starting with the standard NixOS installer and later adding Ryoku is a more conservative approach.
-
-## If you deliberately want to test it
+## How to get the .iso
 
 1. Visit the [Ryoku on NixOS releases page](https://github.com/Ryoku-dev/Ryoku-on-NixOS/releases) and read the release notes for the ISO you choose.
 2. Download the installation image and follow its published verification instructions when available.
-3. Write the image to a disposable USB drive using a trusted imaging tool. **Writing an image overwrites the chosen USB drive.**
-4. Boot the target PC from that USB drive using your computer's boot menu.
-5. Carefully confirm the **exact drive model and capacity** in the installer before allowing any disk operation.
-
-These are orientation steps, not an assurance that the pre-release installer works on every machine. Don't use a disk containing files you cannot afford to lose.
+3. Make sure the SHA256/ hash matches if you want to be extra safe
+4. Write the image to a disposable USB drive using a trusted imaging tool such as Rufus. **Writing an image wipes any data on the USB drive.**
+5. Boot the target PC from that USB drive using your computer's boot menu.
+6. Carefully confirm the **exact drive model and capacity** in the installer before allowing any disk operation.
+7. Select your options
+8. Install
+9. Reboot ensuring the USB isnt set to the highest boot priority or just remove the USB entirely to avoid this
 
 ## What is UEFI?
 
-UEFI is the firmware that starts your computer before Windows or Linux loads. It's not an app you install. The current Ryoku release targets UEFI computers, not old legacy BIOS boot modes.
+UEFI is the firmware that starts your computer before Windows, MacOS, BSD or Linux loads. It's not an app you install. The current Ryoku release targets UEFI computers, not old legacy BIOS boot modes.
 
 ## What about Secure Boot?
 
-Secure Boot is a firmware protection feature. Ryoku's current ISO has limitations with its unsigned bootloader unless keys have been set up appropriately. Do not disable security settings on an existing important machine just to experiment without understanding the consequences.
+Secure Boot is a firmware protection feature. Ryoku's current ISO has limitations with its unsigned bootloader unless keys have been set up appropriately. Turning off Secure Boot before booting the .iso is the correct way to boot it.
 
 ## Stuck already?
 
