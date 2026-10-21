@@ -37,8 +37,6 @@ You don't need to read everything, just the sections that apply to you :).
 
 ## Explore the guides
 
-Each guide is short and concise, written for those who might have never even used a terminal before.
-
 <table>
   <tr>
     <td width="50%" valign="top">
