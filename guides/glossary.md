@@ -2,19 +2,19 @@
 
 # Words explained simply
 
-You do not need a computer science degree to read a Linux guide. Here are the words most likely to get in your way.
+List of words used within this documentation with simple explanations.
 
 ## NixOS
 
-The operating system underneath Ryoku. Think of it as the part that does the job Windows normally does.
+The operating system underneath Ryoku. Think of it as the part that does the job Windows or other Linux distros normally do.
 
 ## Ryoku
 
-The desktop environment and connected tools you see and interact with on top of NixOS.
+The shell/ UI and connected tools you see and interact with on top of NixOS.
 
 ## Terminal
 
-An app where you type commands instead of clicking through menus. **PowerShell** is a similar idea on Windows.
+A Terminal Emulator where you type commands instead of clicking through menus. **PowerShell** is a similar app on Windows.
 
 ## Command
 
@@ -56,13 +56,13 @@ The display system used by Ryoku. It helps applications draw their windows and i
 
 Depending on context, either the **terminal's command interpreter** (such as Fish or Zsh) or the **graphical Ryoku shell** that draws desktop components. Same word, different jobs. Naturally, computers thought this would be clear.
 
-## RyoStore
+## Ryostore
 
-A catalogue of Ryoku themes and customisation products. It is not the same thing as NixOS's package manager.
+A catalogue of Ryoku themes and customisation products. It is not the same thing as NixOS' package manager.
 
 ## ISO
 
-An image file used to make bootable installation media, usually a USB drive.
+An image file used to make bootable installation media, usually a USB drive or CD.
 
 ## Bootloader
 
@@ -70,7 +70,7 @@ The menu or program that starts the operating system when you turn your PC on.
 
 ## Root / sudo
 
-Administrator-level access. `sudo` runs a command with elevated permissions. Don't paste an unknown `sudo` command simply because an online comment recommends it.
+Administrator level access. `sudo` runs a command with elevated permissions. Don't paste an unknown `sudo` command simply because an online comment recommends it.
 
 ## More questions?
 
