@@ -2,6 +2,14 @@
 
 # Fix common problems
 
+**Start here:** run `ryoku doctor` before trying anything else.
+
+```bash
+ryoku doctor --check
+```
+
+**What it does:** Checks your setup for common issues and reports what it finds. Run this first, since it may point you straight to the fix.
+
 ## Ryoku doesn't appear at the login screen
 
 - Check that the guided installer completed its build and switch, not just the initial download.
@@ -23,6 +31,17 @@ journalctl --user -u ryoku-shell.service -b --no-pager -n 80
 ```
 
 **What it does:** Shows the latest 80 error log lines for Ryoku's shell service from the current boot. An error mentioning a QML file and line number can be particularly useful.
+
+## Your compositor starts, but Ryoku doesn't
+
+If Hyprland or Niri loads but you get a bare session without Ryoku, the Ryoku services may not be enabled. Try running:
+
+```bash
+systemctl --user enable --now ryoku-shell ryogami ryoku-session.target
+sudo reboot
+```
+
+**What it does:** Enables and starts the Ryoku shell, Ryogami and the Ryoku session target for your user, then reboots so the session starts cleanly.
 
 ## The desktop loads, but a launcher or panel is missing
 
