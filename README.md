@@ -6,10 +6,7 @@
 
 **力と美のために**  ·  For the sake of power and beauty
 
-### Your Ryoku on NixOS handbook
-
-Everything you need to go from *“What even is NixOS?”* to feeling at home on Ryoku.
-No previous Linux experience required.
+### The Ryoku on NixOS Documentation
 
 [**Get started →**](guides/start-here.md) &nbsp; · &nbsp; [**Install Ryoku →**](guides/install-on-nixos.md) &nbsp; · &nbsp; [**Fix a problem →**](guides/troubleshooting.md)
 
@@ -19,7 +16,7 @@ No previous Linux experience required.
 
 ## Where should I start?
 
-You don't need to read everything. Choose the card that sounds like you.
+You don't need to read everything, just the sections that apply to you :).
 
 <table>
   <tr>
