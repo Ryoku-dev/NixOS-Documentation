@@ -2,8 +2,6 @@
 
 # Fix common problems
 
-The most useful troubleshooting habit is simple: **change one thing, test it, and keep the exact error message**.
-
 ## Ryoku doesn't appear at the login screen
 
 - Check that the guided installer completed its build and switch, not just the initial download.
@@ -12,7 +10,7 @@ The most useful troubleshooting habit is simple: **change one thing, test it, an
 
 ## Login returns immediately to the login screen
 
-A session may be crashing before the desktop finishes loading. If you can switch to a text console, check the relevant user service and session logs rather than repeatedly signing in.
+A session may be crashing before the desktop finishes loading. If you can switch to a text console (TTY) with ctrl + alt + F key, check the relevant user service and session logs rather than repeatedly signing in.
 
 ```bash
 systemctl --user status ryoku-shell.service
@@ -24,7 +22,7 @@ systemctl --user status ryoku-shell.service
 journalctl --user -u ryoku-shell.service -b --no-pager -n 80
 ```
 
-**What it does:** Shows the latest 80 log lines for Ryoku's shell service from the current boot. An error mentioning a QML file and line number can be particularly useful.
+**What it does:** Shows the latest 80 error log lines for Ryoku's shell service from the current boot. An error mentioning a QML file and line number can be particularly useful.
 
 ## The desktop loads, but a launcher or panel is missing
 
@@ -35,10 +33,15 @@ journalctl --user -u ryoku-shell.service -b --no-pager -n 80
 ## No sound or an audio device is missing
 
 Check whether the device appears in your audio settings. USB headsets may fail for firmware or pairing reasons even if PipeWire is working. Avoid reinstalling audio services before checking whether the hardware is recognised.
+If pipewire is failing the fix for that is 
+```bash
+systemctl --user restart pipewire pipewire-pulse wireplumber
+```
+Then just reset the affected apps after running this command.
 
 ## The display is black, flickering or wrong-sized
 
-Graphics drivers, Wayland compatibility and the selected compositor all matter. Record the GPU model, monitor connection and whether the problem occurs in Hyprland, Niri or both.
+Graphics drivers, Wayland compatibility matter. Record the GPU model, monitor connection and whether the problem occurs in Hyprland, Niri or both.
 
 ## What to include in a useful report
 
