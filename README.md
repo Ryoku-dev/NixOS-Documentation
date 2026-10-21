@@ -25,17 +25,17 @@ You don't need to read everything. Choose the card that sounds like you.
   <tr>
     <td width="33%" valign="top">
       <h3>✦ I'm new to Linux</h3>
-      Coming from Windows? Learn what NixOS is, what Ryoku does, and how to prepare without risking your files.
+      Coming from Windows? Learn what NixOS is, what Ryoku does, and how to migrate safely without risking your files.
       <p><a href="guides/start-here.md"><strong>Start from zero →</strong></a></p>
     </td>
     <td width="33%" valign="top">
       <h3>⌘ I already use NixOS</h3>
-      Got a working flake-based NixOS installation? This is the simplest supported route to the Ryoku desktop.
+      Got a working flake based NixOS installation? This is the simplest supported route to Ryoku.
       <p><a href="guides/install-on-nixos.md"><strong>Install Ryoku →</strong></a></p>
     </td>
     <td width="33%" valign="top">
       <h3>◇ I need help</h3>
-      Something disappeared, broke, or won't launch? Start with safe checks instead of reinstalling everything.
+      Something disappeared, broke, or won't work? Start with safe checks instead of reinstalling everything.
       <p><a href="guides/troubleshooting.md"><strong>Find a solution →</strong></a></p>
     </td>
   </tr>
@@ -43,23 +43,23 @@ You don't need to read everything. Choose the card that sounds like you.
 
 ## Explore the guides
 
-Each guide is short, linked to related topics, and written for someone who might never have opened a Linux terminal before.
+Each guide is short and concise, written for those who might have never even used a terminal before.
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>01 &nbsp; Getting started</h3>
-      <p><a href="guides/start-here.md"><strong>Start here ↗</strong></a><br />What NixOS and Ryoku actually are.</p>
-      <p><a href="guides/before-you-install.md"><strong>Before you install ↗</strong></a><br />Backups, hardware, and choosing a safe route.</p>
-      <p><a href="guides/install-on-nixos.md"><strong>Install Ryoku on NixOS ↗</strong></a><br />A guided installation, explained step by step.</p>
-      <p><a href="guides/install-from-iso.md"><strong>Installer USB and ISO ↗</strong></a><br />What to know before experimenting with a fresh install.</p>
+      <p><a href="guides/start-here.md"><strong>Start here ↗</strong></a><br />What NixOS and Ryoku are.</p>
+      <p><a href="guides/before-you-install.md"><strong>Before you install ↗</strong></a><br />Backups, hardware, and choosing a route.</p>
+      <p><a href="guides/install-on-nixos.md"><strong>Install Ryoku on NixOS ↗</strong></a><br />Guided installation, explained step by step.</p>
+      <p><a href="guides/install-from-iso.md"><strong>Installer USB and ISO ↗</strong></a><br />What to know before a fresh install.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>02 &nbsp; Getting comfortable</h3>
-      <p><a href="guides/first-boot.md"><strong>Your first 10 minutes ↗</strong></a><br />Find apps, settings, and the essentials.</p>
-      <p><a href="guides/personalise.md"><strong>Make Ryoku yours ↗</strong></a><br />Wallpapers, colours, bars, and launchers.</p>
-      <p><a href="guides/applications.md"><strong>Apps and software ↗</strong></a><br />How installing apps differs from Windows.</p>
-      <p><a href="guides/glossary.md"><strong>Words explained simply ↗</strong></a><br />Flakes, rebuilds, generations, and other new terms.</p>
+      <h3>02 &nbsp; Getting Comfortable</h3>
+      <p><a href="guides/first-boot.md"><strong>Your first 10 minutes ↗</strong></a><br />Find apps, settings and the essentials.</p>
+      <p><a href="guides/personalise.md"><strong>Make Ryoku Customisable ↗</strong></a><br />Wallpapers, colours, bars and launchers.</p>
+      <p><a href="guides/applications.md"><strong>Packages and Software ↗</strong></a><br />How installing apps differs from Windows and other distros.</p>
+      <p><a href="guides/glossary.md"><strong>NixOS explained simply ↗</strong></a><br />Flakes, rebuilds, generations, and other new terms.</p>
     </td>
   </tr>
   <tr>
@@ -85,7 +85,7 @@ Each guide is short, linked to related topics, and written for someone who might
 **[1. Understand the basics](guides/start-here.md)** → **[2. Prepare safely](guides/before-you-install.md)** → **[3. Install](guides/install-on-nixos.md)** → **[4. Explore your desktop](guides/first-boot.md)**
 
 > [!IMPORTANT]
-> **Installing Ryoku on an existing NixOS system is not the same as installing NixOS from a USB drive.** The guided Ryoku installer does not partition your disks. The current pre-release Ryoku installer ISO **erases the disk you select** and does not support manual partitioning. If you're using Windows, read [Before you install](guides/before-you-install.md) before touching a drive.
+> **Installing Ryoku on an existing NixOS system is not the same as installing NixOS from a USB drive.** The guided Ryoku installer does not partition your disks. The .iso **erases the disk you select** and does not support manual partitioning. If you're using Windows, read [Before you install](guides/before-you-install.md) before touching a drive.
 
 ## What makes NixOS different?
 
@@ -96,11 +96,11 @@ Each guide is short, linked to related topics, and written for someone who might
 | Many programs use `.exe` installers | Apps can be included in your NixOS configuration or installed through supported package systems |
 | Windows updates change the installed system | NixOS builds new **generations**, making many system changes easier to reverse |
 
-New terms? [The glossary explains them without assuming you're a developer.](guides/glossary.md)
+New terms? [The glossary explains them without assuming you're an experienced user.](guides/glossary.md)
 
 ## Project and support
 
-[**Ryoku on NixOS**](https://github.com/Ryoku-dev/Ryoku-on-NixOS) · [**Main Ryoku project**](https://github.com/Ryoku-dev/ryoku) · [**Report a bug**](https://github.com/Ryoku-dev/Ryoku-on-NixOS/issues) · [**Community Discord**](https://discord.gg/xvr69NRsmt)
+[**Ryoku on NixOS**](https://github.com/Ryoku-dev/Ryoku-on-NixOS) · [**Upstream**](https://github.com/Ryoku-dev/ryoku) · [**Report a bug**](https://github.com/Ryoku-dev/Ryoku-on-NixOS/issues) · [**Community Discord**](https://discord.gg/xvr69NRsmt)
 
 This handbook explains the beginner experience. For detailed technical behaviour, the [maintained NixOS port guide](https://github.com/Ryoku-dev/Ryoku-on-NixOS/blob/main/docs/nixos.md) is the reference.
 
@@ -108,6 +108,6 @@ This handbook explains the beginner experience. For detailed technical behaviour
 
 ---
 
-<sub>Beauty on the surface. Clarity underneath.</sub>
+<sub>FOR THE SAKE OF POWER AND BEAUTY.</sub>
 
 </div>
