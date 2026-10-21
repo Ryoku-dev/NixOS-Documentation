@@ -1,6 +1,6 @@
 [← Back to the handbook](../README.md)
 
-# Questions people actually ask
+# Questions people have actually asked
 
 ## Can I install Ryoku from Windows by opening an `.exe`?
 
@@ -8,7 +8,7 @@ No. Ryoku on NixOS is a Linux desktop, not a Windows application. If you're on W
 
 ## Will it delete Windows?
 
-The **guided Ryoku installer for an existing NixOS system** does not format disks or install a new operating system. The separate **pre-release Ryoku ISO installer** erases the disk you select. These are different processes. See [The installer USB](install-from-iso.md).
+The **guided Ryoku installer for an existing NixOS system** does not format disks or install a new operating system. The separate .iso erases the disk you select. These are different processes. See [The installer USB](install-from-iso.md).
 
 ## Do I have to know how to code?
 
@@ -24,7 +24,7 @@ No. Ryoku aims to provide the same desktop experience on both, but Arch uses Pac
 
 ## Which is better, Hyprland or Niri?
 
-Neither is universally better. Both manage windows, and Ryoku supports both. Choose whichever layout you prefer, then learn it gradually.
+Neither is universally better. Both are tiling window managers, and Ryoku supports both. Choose whichever layout you prefer, then learn it gradually.
 
 ## Can I use NVIDIA graphics?
 
@@ -36,11 +36,11 @@ NixOS often keeps older system generations that can be selected during boot or u
 
 ## How do I update Ryoku?
 
-For a standard installer-managed setup, use `ryoku update`. See [Updates and rebuilds](updates.md) for what that does and when to use NixOS rebuild commands instead.
+For a standard installer managed setup, use `ryoku update`. See [Updates and rebuilds](updates.md) for what that does and when to use NixOS rebuild commands instead.
 
 ## Where can I ask for help?
 
-Use the [Ryoku Discord](https://discord.gg/xvr69NRsmt) or [open an issue](https://github.com/Ryoku-dev/Ryoku-on-NixOS/issues) with your hardware, steps to reproduce and an exact error message. Hide passwords, tokens and other private information from screenshots and logs.
+Use the [Ryoku Discord](https://discord.gg/xvr69NRsmt) (recommended) or [open an issue](https://github.com/Ryoku-dev/Ryoku-on-NixOS/issues) with your hardware, steps to reproduce and an exact error message. Hide passwords, tokens and other private information from screenshots and logs.
 
 ---
 
