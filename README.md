@@ -28,7 +28,7 @@ You don't need to read everything, just the sections that apply to you :).
     <td width="33%" valign="top">
       <h3>⌘ I already use NixOS</h3>
       Got a working flake based NixOS installation? This is the simplest supported route to Ryoku.
-      <p><a href="guides/install-on-nixos.md"><strong>Install Ryoku →</strong></a></p>
+      <p><a href="guides/script-installer.md"><strong>Install Ryoku →</strong></a></p>
     </td>
     <td width="33%" valign="top">
       <h3>◇ I need help</h3>
