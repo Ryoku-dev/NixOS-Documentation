@@ -22,21 +22,15 @@ You don't need to read everything, just the sections that apply to you :).
   <tr>
     <td width="33%" valign="top">
       <a href="guides/start-here.md"><img src="assets/firststep-final.png" alt="✦ I'm new to Linux" width="100%" /></a>
-      <h3>✦ I'm new to Linux</h3>
-      Coming from Windows? Learn what NixOS is, what Ryoku does, and how to migrate safely without risking your files.
-      <p><a href="guides/start-here.md"><strong>Start from zero →</strong></a></p>
+      <p><a href="guides/start-here.md"><strong>Im new to Linux →</strong></a></p>
     </td>
     <td width="33%" valign="top">
       <a href="guides/script-installer.md"><img src="assets/build-on-nix-final.png" alt="⌘ I already use NixOS" width="100%" /></a>
-      <h3>⌘ I already use NixOS</h3>
-      Got a working flake based NixOS installation? This is the simplest supported route to Ryoku.
-      <p><a href="guides/script-installer.md"><strong>Install Ryoku →</strong></a></p>
+      <p><a href="guides/script-installer.md"><strong>I already use NixOS →</strong></a></p>
     </td>
     <td width="33%" valign="top">
       <a href="guides/troubleshooting.md"><img src="assets/a-way-back-final.png" alt="◇ I need help" width="100%" /></a>
-      <h3>◇ I need help</h3>
-      Something disappeared, broke, or won't work? Start with safe checks instead of reinstalling everything.
-      <p><a href="guides/troubleshooting.md"><strong>Find a solution →</strong></a></p>
+      <p><a href="guides/troubleshooting.md"><strong>I need help →</strong></a></p>
     </td>
   </tr>
 </table>
