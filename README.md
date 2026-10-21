@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/ryoku-docs-banner.svg" alt="Ryoku on NixOS documentation: Beauty on the surface. Clarity underneath." width="100%" />
+<img src="assets/ryoku-nix-logo-white-transparent.svg" alt="力と美" width="260" />
 
 <br />
 
