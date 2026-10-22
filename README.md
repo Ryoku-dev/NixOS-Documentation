@@ -28,10 +28,9 @@
     <td width="50%" valign="top">
       <img src="assets/02.png" alt="02 &nbsp; Getting Comfortable" width="100%" /></a>
          <a href="guides/first-boot.md"><img src="assets/10mins.png" alt="02 &nbsp; Getting Comfortable" width="100%" /></a>
-         <a href="guides/personalise.md"><img src="assets/customise.png" alt="02 &nbsp; Getting Comfortable" width="100%" /></a>
-      <p><a href="guides/personalise.md"><strong>Make Ryoku Customisable ↗</strong></a><br />Wallpapers, colours, bars and launchers.</p>
-      <p><a href="guides/applications.md"><strong>Packages and Software ↗</strong></a><br />How installing apps differs from Windows and other distros.</p>
-      <p><a href="guides/glossary.md"><strong>NixOS explained simply ↗</strong></a><br />Flakes, rebuilds, generations, and other new terms.</p>
+         <a href="guides/personalise.md"><img src="assets/customise.png" alt="02 &nbsp; Getting Comfortable" width="100%" /></a
+         <a href="guides/applications.md"><img src="assets/pkgs.png" alt="02 &nbsp; Getting Comfortable" width="100%" /></a
+         <a href="guides/glossary.md"><img src="assets/nix-simple.png" alt="02 &nbsp; Getting Comfortable" width="100%" /></a
     </td>
   </tr>
   <tr>
