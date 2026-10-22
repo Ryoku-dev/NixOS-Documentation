@@ -23,8 +23,7 @@
       <h3>01 &nbsp; Getting started</h3>
       <p><a href="guides/start-here.md"><strong>Start here ↗</strong></a><br />What NixOS and Ryoku are.</p>
       <p><a href="guides/before-you-install.md"><strong>Before you install ↗</strong></a><br />Backups, hardware, and choosing a route.</p>
-      <p><a href="guides/script-installer.md"><strong>Install Ryoku on NixOS ↗</strong></a><br />Guided installation, explained step by step.</p>
-      <p><a href="guides/install-from-iso.md"><strong>Installer USB and ISO ↗</strong></a><br />What to know before a fresh install.</p>
+      <p><a href="guides/install.md"><strong>Install Ryoku on NixOS ↗</strong></a><br />Guided installation, explained step by step.</p>
     </td>
     <td width="50%" valign="top">
       <a href="guides/first-boot.md"><img src="assets/normalized/02-final.png" alt="02 &nbsp; Getting Comfortable" width="100%" /></a>
