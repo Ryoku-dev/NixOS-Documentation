@@ -27,7 +27,7 @@
       <p><a href="guides/install.md"><strong>Install Ryoku on NixOS ↗</strong></a><br />Guided installation, explained step by step.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="guides/first-boot.md"><img src="assets/normalized/02-final.png" alt="02 &nbsp; Getting Comfortable" width="100%" /></a>
+      <a href="guides/first-boot.md"><img src="assets/02.png" alt="02 &nbsp; Getting Comfortable" width="100%" /></a>
       <h3>02 &nbsp; Getting Comfortable</h3>
       <p><a href="guides/first-boot.md"><strong>Your first 10 minutes ↗</strong></a><br />Find apps, settings and the essentials.</p>
       <p><a href="guides/personalise.md"><strong>Make Ryoku Customisable ↗</strong></a><br />Wallpapers, colours, bars and launchers.</p>
@@ -44,7 +44,7 @@
       <p><a href="guides/troubleshooting.md"><strong>Fix common problems ↗</strong></a><br />Useful checks and what to share when asking for help.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="guides/faq.md"><img src="assets/normalized/quick-answers-final.png" alt="04 &nbsp; Quick answers" width="100%" /></a>
+      <a href="guides/faq.md"><img src="assets/normalized/04.png" alt="04 &nbsp; Quick answers" width="100%" /></a>
       <h3>04 &nbsp; Quick answers</h3>
       <p><a href="guides/commands.md"><strong>Commands that matter ↗</strong></a><br />A few commands you'll actually use, with explanations.</p>
       <p><a href="guides/faq.md"><strong>Frequently asked questions ↗</strong></a><br />Straight answers about Windows, graphics, updates, and more.</p>
