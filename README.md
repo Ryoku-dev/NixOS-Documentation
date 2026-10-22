@@ -35,10 +35,9 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="guides/updates.md"><img src="assets/03.png" alt="03 &nbsp; Keeping things running" width="100%" /></a>
-      <h3>03 &nbsp; Keeping things running</h3>
+      <img src="assets/03.png" alt="03 &nbsp; Keeping things running" width="100%" /></a>
       <p><a href="guides/updates.md"><strong>Updates and rebuilds ↗</strong></a><br />What an update changes and how to apply one.</p>
-      <p><a href="guides/recovery.md"><strong>Return to a working system ↗</strong></a><br />Understanding previous NixOS generations.</p>
+         <a href="guides/recovery.md"><img src="assets/recovery.png" alt="03 &nbsp; Keeping things running" width="100%" /></a
       <p><a href="guides/troubleshooting.md"><strong>Fix common problems ↗</strong></a><br />Useful checks and what to share when asking for help.</p>
     </td>
     <td width="50%" valign="top">
