@@ -90,7 +90,7 @@ This handbook explains the beginner experience. For detailed technical behaviour
 
 ---
 
-<img src="assets/made-on-nix.png" alt="Ryoku" width="100%" />
+<img src="assets/buillt-on-nixos.png.png" alt="Ryoku" width="100%" />
 
 <sub>FOR THE SAKE OF POWER AND BEAUTY.</sub>
 
