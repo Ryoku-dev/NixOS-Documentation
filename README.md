@@ -16,10 +16,11 @@
 
 ## Explore the guides
 
+
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="guides/start-here.md"><img src="assets/normalized/getting-started-final.png" alt="01 &nbsp; Getting started" width="100%" /></a>
+      <a href="guides/start-here.md"><img src="assets/01.png" alt="01 &nbsp; Getting started" width="100%" /></a>
       <h3>01 &nbsp; Getting started</h3>
       <p><a href="guides/start-here.md"><strong>Start here ↗</strong></a><br />What NixOS and Ryoku are.</p>
       <p><a href="guides/before-you-install.md"><strong>Before you install ↗</strong></a><br />Backups, hardware, and choosing a route.</p>
