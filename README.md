@@ -21,13 +21,9 @@
   <tr>
     <td width="50%" valign="top">
       <img src="assets/01.png" alt="01 &nbsp; Getting started" width="100%" /></a>
-      <h3>01 &nbsp; Getting started</h3>
       <a href="guides/start-here.md"><img src="assets/first-step.png" alt="01 &nbsp; Getting started" width="100%" /></a>
-      <p><a href="guides/start-here.md"><strong>Start here ↗</strong></a><br />What NixOS and Ryoku are.</p>
       <a href="guides/before-you-install.md"><img src="assets/before-install.png" alt="01 &nbsp; Getting started" width="100%" /></a>
-      <p><a href="guides/before-you-install.md"><strong>Before you install ↗</strong></a><br />Backups, hardware, and choosing a route.</p>
       <a href="guides/install.md"><img src="assets/install.png" alt="01 &nbsp; Getting started" width="100%" /></a>
-      <p><a href="guides/install.md"><strong>Install Ryoku on NixOS ↗</strong></a><br />Guided installation, explained step by step.</p>
     </td>
     <td width="50%" valign="top">
       <a href="guides/first-boot.md"><img src="assets/02.png" alt="02 &nbsp; Getting Comfortable" width="100%" /></a>
