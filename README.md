@@ -44,7 +44,7 @@
       <p><a href="guides/troubleshooting.md"><strong>Fix common problems ↗</strong></a><br />Useful checks and what to share when asking for help.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="guides/faq.md"><img src="assets/normalized/04.png" alt="04 &nbsp; Quick answers" width="100%" /></a>
+      <a href="guides/faq.md"><img src="assets/04.png" alt="04 &nbsp; Quick answers" width="100%" /></a>
       <h3>04 &nbsp; Quick answers</h3>
       <p><a href="guides/commands.md"><strong>Commands that matter ↗</strong></a><br />A few commands you'll actually use, with explanations.</p>
       <p><a href="guides/faq.md"><strong>Frequently asked questions ↗</strong></a><br />Straight answers about Windows, graphics, updates, and more.</p>
