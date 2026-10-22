@@ -34,6 +34,34 @@ Use the arrow keys to move, **Enter** to continue, **Space** to tick options, an
 
 The installer integrates the Ryoku flake input and module into your existing NixOS setup, writes its managed `ryoku.nix`, updates the lock file and builds a new NixOS generation and it only switches to the new generation when the build succeeds. It keeps installer configuration backups under `/var/backups/ryoku-nixos/`.
 
+Installing from a USB drive
+
+The Ryoku on NixOS bootable ISO that automatically installs NixOS aswell as the entire Ryoku shell and comes preinstalled with premade NixOS configs and flake.nix inputs and they are heavily commented to make editing extremely easy.
+
+    Disk-erasing warning: The current Ryoku installer ISO erases the selected disk and does not offer manual partitioning unless you do it manually in a TTY session first or use Disk Manager on Windows. If you pick your Windows drive without partitioning first, you will lose Windows and everything stored on it.
+
+How to get the .iso
+
+    Visit the Ryoku on NixOS releases page and read the release notes for the ISO you choose.
+    Download the installation image and follow its published verification instructions when available.
+    Make sure the SHA256/ hash matches if you want to be extra safe
+    Write the image to a disposable USB drive using a trusted imaging tool such as Rufus. Writing an image wipes any data on the USB drive.
+    Boot the target PC from that USB drive using your computer's boot menu.
+    Carefully confirm the exact drive model and capacity in the installer before allowing any disk operation.
+    Select your options
+    Install
+    Reboot ensuring the USB isnt set to the highest boot priority or just remove the USB entirely to avoid this
+
+What is UEFI?
+
+UEFI is the firmware that starts your computer before Windows, MacOS, BSD or Linux loads. It's not an app you install. The current Ryoku release targets UEFI computers, not old legacy BIOS boot modes.
+What about Secure Boot?
+
+Secure Boot is a firmware protection feature. Ryoku's current ISO has limitations with its unsigned bootloader unless keys have been set up appropriately. Turning off Secure Boot before booting the .iso is the correct way to boot it.
+Stuck already?
+
+Return to Before you install and use the regular NixOS route. You can still get the same Ryoku desktop after installation.
+
 ## After installation
 
 When the build and switch have succeeded, log out and choose **Hyprland** or **Niri** from your login screen, then sign in. You should see Ryoku's desktop and panels.
