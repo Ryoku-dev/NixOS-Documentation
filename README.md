@@ -21,15 +21,15 @@ You don't need to read everything, just the sections that apply to you :).
 <table>
   <tr>
     <td width="33%" valign="top">
-      <a href="guides/start-here.md"><img src="assets/firststep-final.png" alt="✦ I'm new to Linux" width="100%" height="90" /></a>
+      <a href="guides/start-here.md"><img src="assets/normalized/firststep-final.png" alt="✦ I'm new to Linux" width="100%" /></a>
       <p><a href="guides/start-here.md"><strong>Im new to Linux →</strong></a></p>
     </td>
     <td width="33%" valign="top">
-      <a href="guides/script-installer.md"><img src="assets/build-on-nix-final.png" alt="⌘ I already use NixOS" width="100%" height="90" /></a>
+      <a href="guides/script-installer.md"><img src="assets/normalized/build-on-nix-final.png" alt="⌘ I already use NixOS" width="100%" /></a>
       <p><a href="guides/script-installer.md"><strong>I already use NixOS →</strong></a></p>
     </td>
     <td width="33%" valign="top">
-      <a href="guides/troubleshooting.md"><img src="assets/a-way-back-final.png" alt="◇ I need help" width="100%" height="90" /></a>
+      <a href="guides/troubleshooting.md"><img src="assets/normalized/a-way-back-final.png" alt="◇ I need help" width="100%" /></a>
       <p><a href="guides/troubleshooting.md"><strong>I need help →</strong></a></p>
     </td>
   </tr>
@@ -40,7 +40,7 @@ You don't need to read everything, just the sections that apply to you :).
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="guides/start-here.md"><img src="assets/getting-started-final.png" alt="01 &nbsp; Getting started" width="100%" height="140" /></a>
+      <a href="guides/start-here.md"><img src="assets/normalized/getting-started-final.png" alt="01 &nbsp; Getting started" width="100%" /></a>
       <h3>01 &nbsp; Getting started</h3>
       <p><a href="guides/start-here.md"><strong>Start here ↗</strong></a><br />What NixOS and Ryoku are.</p>
       <p><a href="guides/before-you-install.md"><strong>Before you install ↗</strong></a><br />Backups, hardware, and choosing a route.</p>
@@ -48,7 +48,7 @@ You don't need to read everything, just the sections that apply to you :).
       <p><a href="guides/install-from-iso.md"><strong>Installer USB and ISO ↗</strong></a><br />What to know before a fresh install.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="guides/first-boot.md"><img src="assets/02-final.png" alt="02 &nbsp; Getting Comfortable" width="100%" height="140" /></a>
+      <a href="guides/first-boot.md"><img src="assets/normalized/02-final.png" alt="02 &nbsp; Getting Comfortable" width="100%" /></a>
       <h3>02 &nbsp; Getting Comfortable</h3>
       <p><a href="guides/first-boot.md"><strong>Your first 10 minutes ↗</strong></a><br />Find apps, settings and the essentials.</p>
       <p><a href="guides/personalise.md"><strong>Make Ryoku Customisable ↗</strong></a><br />Wallpapers, colours, bars and launchers.</p>
@@ -58,14 +58,14 @@ You don't need to read everything, just the sections that apply to you :).
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="guides/updates.md"><img src="assets/keep-things-running-final.png" alt="03 &nbsp; Keeping things running" width="100%" height="140" /></a>
+      <a href="guides/updates.md"><img src="assets/normalized/keep-things-running-final.png" alt="03 &nbsp; Keeping things running" width="100%" /></a>
       <h3>03 &nbsp; Keeping things running</h3>
       <p><a href="guides/updates.md"><strong>Updates and rebuilds ↗</strong></a><br />What an update changes and how to apply one.</p>
       <p><a href="guides/recovery.md"><strong>Return to a working system ↗</strong></a><br />Understanding previous NixOS generations.</p>
       <p><a href="guides/troubleshooting.md"><strong>Fix common problems ↗</strong></a><br />Useful checks and what to share when asking for help.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="guides/faq.md"><img src="assets/quick-answers-final.png" alt="04 &nbsp; Quick answers" width="100%" height="140" /></a>
+      <a href="guides/faq.md"><img src="assets/normalized/quick-answers-final.png" alt="04 &nbsp; Quick answers" width="100%" /></a>
       <h3>04 &nbsp; Quick answers</h3>
       <p><a href="guides/commands.md"><strong>Commands that matter ↗</strong></a><br />A few commands you'll actually use, with explanations.</p>
       <p><a href="guides/faq.md"><strong>Frequently asked questions ↗</strong></a><br />Straight answers about Windows, graphics, updates, and more.</p>
