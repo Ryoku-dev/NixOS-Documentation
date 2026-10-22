@@ -34,7 +34,7 @@ Use the arrow keys to move, **Enter** to continue, **Space** to tick options, an
 
 The installer integrates the Ryoku flake input and module into your existing NixOS setup, writes its managed `ryoku.nix`, updates the lock file and builds a new NixOS generation and it only switches to the new generation when the build succeeds. It keeps installer configuration backups under `/var/backups/ryoku-nixos/`.
 
-Installing from a USB drive
+# Installing from a USB drive
 
 The Ryoku on NixOS bootable ISO that automatically installs NixOS aswell as the entire Ryoku shell and comes preinstalled with premade NixOS configs and flake.nix inputs and they are heavily commented to make editing extremely easy.
 
