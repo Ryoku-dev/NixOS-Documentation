@@ -14,7 +14,7 @@
 
 ---
 
-## Explore the guides
+## Explore the guides (All images are hyperlinks to the relevant page)
 
 
 <table>
