@@ -14,27 +14,6 @@
 
 ---
 
-## Where should I start?
-
-You don't need to read everything, just the sections that apply to you :).
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <a href="guides/start-here.md"><img src="assets/normalized/firststep-final.png" alt="✦ I'm new to Linux" width="100%" /></a>
-      <p><a href="guides/start-here.md"><strong>Im new to Linux →</strong></a></p>
-    </td>
-    <td width="33%" valign="top">
-      <a href="guides/script-installer.md"><img src="assets/normalized/build-on-nix-final.png" alt="⌘ I already use NixOS" width="100%" /></a>
-      <p><a href="guides/script-installer.md"><strong>I already use NixOS →</strong></a></p>
-    </td>
-    <td width="33%" valign="top">
-      <a href="guides/troubleshooting.md"><img src="assets/normalized/a-way-back-final.png" alt="◇ I need help" width="100%" /></a>
-      <p><a href="guides/troubleshooting.md"><strong>I need help →</strong></a></p>
-    </td>
-  </tr>
-</table>
-
 ## Explore the guides
 
 <table>
@@ -74,29 +53,39 @@ You don't need to read everything, just the sections that apply to you :).
   </tr>
 </table>
 
-## Your first journey
+## Where should I start?
 
-**Coming from Windows?** Here's a simple order to follow. Click one step at a time.
+You don't need to read everything, just the sections that apply to you :).
+(Images are hyperlinks to the specific page)
 
-**[1. Understand the basics](guides/start-here.md)** → **[2. Prepare safely](guides/before-you-install.md)** → **[3. Install](guides/install-on-nixos.md)** → **[4. Explore your desktop](guides/first-boot.md)**
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="guides/start-here.md"><img src="assets/normalized/firststep-final.png" alt="✦ I'm new to Linux" width="100%" /></a>
+    </td>
+    <td width="33%" valign="top">
+      <a href="guides/script-installer.md"><img src="assets/normalized/build-on-nix-final.png" alt="⌘ I already use NixOS" width="100%" /></a>
+    </td>
+    <td width="33%" valign="top">
+      <a href="guides/troubleshooting.md"><img src="assets/normalized/a-way-back-final.png" alt="◇ I need help" width="100%" /></a>
+    </td>
+  </tr>
+</table>
 
-> [!IMPORTANT]
-> **Installing Ryoku on an existing NixOS system is not the same as installing NixOS from a USB drive.** The guided Ryoku installer does not partition your disks. The .iso **erases the disk you select** and does not support manual partitioning. If you're using Windows, read [Before you install](guides/before-you-install.md) before touching a drive.
+## What makes Ryoku on NixOS different to floating window Desktop Environments?
 
-## What makes NixOS different?
-
-| Windows | Ryoku on NixOS |
+| Others | Ryoku on NixOS |
 | :--- | :--- |
 | The Start menu opens your apps | The Ryoku app launcher opens your apps |
 | Settings controls your system | Ryoku Hub controls much of your desktop, while NixOS manages system configuration |
 | Many programs use `.exe` installers | Apps can be included in your NixOS configuration or installed through supported package systems |
 | Windows updates change the installed system | NixOS builds new **generations**, making many system changes easier to reverse |
 
-New terms? [The glossary explains them without assuming you're an experienced user.](guides/glossary.md)
+Dont know what a word means? [The glossary explains them without assuming you're an experienced user.](guides/glossary.md)
 
 ## Project and support
 
-[**Ryoku on NixOS**](https://github.com/Ryoku-dev/Ryoku-on-NixOS) · [**Upstream**](https://github.com/Ryoku-dev/ryoku) · [**Report a bug**](https://github.com/Ryoku-dev/Ryoku-on-NixOS/issues) · [**Community Discord**](https://discord.gg/xvr69NRsmt)
+[**Ryoku on NixOS**](https://github.com/Ryoku-dev/Ryoku-on-NixOS) · [**Report a bug**](https://github.com/Ryoku-dev/Ryoku-on-NixOS/issues) · [**Community Discord**](https://discord.gg/xvr69NRsmt)
 
 This handbook explains the beginner experience. For detailed technical behaviour, the [maintained NixOS port guide](https://github.com/Ryoku-dev/Ryoku-on-NixOS/blob/main/docs/nixos.md) is the reference.
 
