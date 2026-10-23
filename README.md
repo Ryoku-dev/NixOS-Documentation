@@ -92,6 +92,6 @@ This handbook explains the beginner experience. For detailed technical behaviour
 
 <img src="assets/buillt-on-nixos.png" alt="Ryoku" width="100%" />
 
-<sub>FOR THE SAKE OF POWER AND BEAUTY.</sub>
+<sub>**力と美のために · For the sake of power and beauty.**</sub>
 
 </div>
