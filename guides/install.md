@@ -16,7 +16,7 @@ This is the recommended route when **NixOS is already installed** and you use a 
 Paste this command **without `sudo`**:
 
 ```bash
-nix run github:aethctl/Ryoku-on-NixOS/main#install
+nix run github:Ryoku-dev/Ryoku-on-NixOS/main#install
 ```
 
 **What it does:** Nix downloads the Ryoku installer from the NixOS repo and opens an interactive setup screen. It does not format your disk.

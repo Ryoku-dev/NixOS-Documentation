@@ -22,6 +22,15 @@ ryoku update
 
 If your flake uses a local path the updater intentionally leaves that source alone. Such setups should update their local checkout and rebuild through their own workflow.
 
+### Stable and unstable
+
+Ryoku on NixOS follows the same two release lanes as Ryoku on every other distro:
+
+- **Stable** (the `main` branch) moves only when Ryoku cuts a stable release.
+- **Unstable** (the `unstable-dev` branch) gets every Ryoku change that passed Ryoku's tests, usually within the hour, once the NixOS maintainers merge it.
+
+Switch lanes with `ryoku track stable` or `ryoku track unstable`. The next `ryoku update` follows the lane you picked.
+
 ## Applying your own NixOS changes
 
 For a typical flake stored in `/etc/nixos/flake.nix`, an example is:
